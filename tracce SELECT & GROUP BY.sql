@@ -21,7 +21,7 @@ SELECT * FROM `exams` WHERE `date` = DATE('2020-06-20') AND `hour` >= TIME('14:0
 SELECT * FROM `degrees` WHERE `level` LIKE '%magistrale%';
 -- 7. Da quanti dipartimenti è composta l'università? (12)
 
-
+SELECT COUNT(*) FROM `departments`;
 -- 8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
 
 
